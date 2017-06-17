@@ -17,7 +17,7 @@ else{j = 1;
       	spell = spell.replace(keys[i],"");
         damage = parseInt(damage + values[i]);}}}
   damage = damage - spell.length;
-  if(damage<0){damage = 0;}
+  if(damage < 0){damage = 0;}
   alert(damage);}}
 
-var spell = "xxxxxxxxxxx"; damage(spell);
+var spell = "fejejeeaindaiyaiai"; damage(spell);
